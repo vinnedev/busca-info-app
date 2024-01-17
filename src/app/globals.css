@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remover margens e preenchimentos padrão */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd,
+ol,
+ul,
+fieldset,
+legend,
+button,
+input,
+textarea,
+optgroup,
+select {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remover estilo padrão do lista */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Definir font-size e line-height padrão */
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Resetar as margens do body */
+body {
+  margin: 0;
+}
