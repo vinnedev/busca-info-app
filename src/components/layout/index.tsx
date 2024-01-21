@@ -54,7 +54,7 @@ const Layout: React.FC<PageProps> = ({ children }) => {
                     <div className="my-4"></div>
                 </aside>
                 <main className="main -ml-48 mb-16 flex flex-grow flex-col p-4 transition-all duration-150 ease-in md:ml-0">
-                    <div className="flex h-full bg-white shadow-md p-8">
+                    <div className="h-full bg-white shadow-md p-8">
                         {children}
                     </div>
                 </main>
